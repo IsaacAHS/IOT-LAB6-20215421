@@ -2,6 +2,8 @@ package com.example.telegest;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -23,11 +25,12 @@ public class MainActivity extends AppCompatActivity {
         setupToolbar();
         setupBottomNavigation();
 
-        // Verificar que el usuario esté autenticado
-        if (!FirebaseManager.getInstance().isUserLoggedIn()) {
-            redirectToLogin();
-            return;
-        }
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            if (!FirebaseManager.getInstance().isUserLoggedIn()) {
+                redirectToLogin();
+            }
+        }, 500);
+
     }
 
     private void setupToolbar() {

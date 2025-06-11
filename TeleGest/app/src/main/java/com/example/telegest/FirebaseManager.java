@@ -35,8 +35,19 @@ public class FirebaseManager {
 
     public boolean isUserLoggedIn() {
         FirebaseUser user = getCurrentUser();
-        return user != null && user.isEmailVerified();
+        if (user == null) return false;
+
+        // Solo exigir verificación si el proveedor es email/password
+        for (com.google.firebase.auth.UserInfo info : user.getProviderData()) {
+            if (info.getProviderId().equals("password")) {
+                return user.isEmailVerified();
+            }
+        }
+
+        // Si no es email/password, consideramos logueado
+        return true;
     }
+
 
     public String getCurrentUserId() {
         FirebaseUser user = getCurrentUser();

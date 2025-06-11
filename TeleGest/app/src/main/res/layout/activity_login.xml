@@ -123,7 +123,7 @@
             android:layout_marginTop="24dp"
             android:background="@color/primary_color"
             android:text="Iniciar Sesión"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/surface_color"
             android:textSize="16sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
