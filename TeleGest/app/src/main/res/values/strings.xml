@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeleGest</string>
+
+    <!-- Authentication -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="register_title">Crear Cuenta</string>
+    <string name="welcome_back">Bienvenido de vuelta</string>
+    <string name="join_us">Únete y comienza a gestionar tu dinero</string>
+    <string name="default_web_client_id">TU_CLIENT_ID</string>
+    <string name="facebook_client_token">7cac653c68e136a10ab0313429d051bd</string>
+
+
+
+    <!-- Form Fields -->
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="name_hint">Nombre completo</string>
+
+    <!-- Buttons -->
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="register_button">Crear Cuenta</string>
+    <string name="google_signin">Continuar con Google</string>
+    <string name="facebook_signin">Continuar con Facebook</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <!-- Links -->
+    <string name="no_account">¿No tienes cuenta? </string>
+    <string name="register_here">Regístrate aquí</string>
+    <string name="have_account">¿Ya tienes cuenta? </string>
+    <string name="login_here">Inicia sesión aquí</string>
+
+    <!-- Messages -->
+    <string name="welcome_message">¡Bienvenido!</string>
+    <string name="logout_message">Sesión cerrada</string>
+    <string name="loading">Cargando...</string>
+
+    <!-- Validation Messages -->
+    <string name="email_required">Ingrese un email válido</string>
+    <string name="password_required">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="passwords_not_match">Las contraseñas no coinciden</string>
+    <string name="name_required">Ingrese su nombre</string>
+
+    <!-- Error Messages -->
+    <string name="login_error">Error al iniciar sesión. Verifica tus credenciales.</string>
+    <string name="register_error">Error al crear la cuenta. El email puede estar en uso.</string>
+    <string name="google_signin_error">Error al iniciar sesión con Google</string>
+    <string name="facebook_signin_error">Error al iniciar sesión con Facebook</string>
+    <string name="reset_password_success">Se ha enviado un email para restablecer tu contraseña</string>
+    <string name="reset_password_error">Error al enviar email de recuperación</string>
+    <string name="email_verification_sent">Cuenta creada exitosamente. Se ha enviado un email de verificación</string>
+    <string name="email_not_verified">Por favor verifica tu email antes de continuar</string>
+
+    <!-- Navigation -->
+    <string name="nav_ingresos">Ingresos</string>
+    <string name="nav_egresos">Egresos</string>
+    <string name="nav_resumen">Resumen</string>
+    <string name="nav_logout">Cerrar Sesión</string>
+
+    <!-- Content Descriptions -->
+    <string name="logo_desc">Logo de la aplicación</string>
+    <string name="email_icon_desc">Icono de email</string>
+    <string name="password_icon_desc">Icono de contraseña</string>
+    <string name="person_icon_desc">Icono de persona</string>
+
+    <!-- Facebook App ID (reemplazar con tu ID real) -->
+    <string name="facebook_app_id">1229418635225424</string>
+    <string name="fb_login_protocol_scheme">fbdb685c0ed590d1cede3d1660dc0646</string>
+</resources>

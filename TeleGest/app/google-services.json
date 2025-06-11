@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410778668094",
+    "project_id": "iot-lab6-f601c",
+    "storage_bucket": "iot-lab6-f601c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410778668094:android:905cc9c47eac15dd74156f",
+        "android_client_info": {
+          "package_name": "com.example.telegest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9A8sH4cdTxgB4ITXDFH5nmD0DgR105Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
